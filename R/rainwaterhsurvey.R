@@ -23,4 +23,4 @@
 #'   \item{recharge_solutions}{Respondents suggestions on methods or practices that can help replenish groundwater}
 #'   \item{rwh_support_needed}{Types of support, information, or interventions that would encourage adoption of rainwater harvesting or groundwater recharge practices}
 #' }
-"rainwaterharvesting"
+"rainwaterhsurvey"

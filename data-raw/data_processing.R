@@ -16,12 +16,7 @@ library(maps)
 
 
 # Load Data --------------------------------------------------------------------
-# Load the necessary data from a CSV file
 data_in <- readr::read_csv("data-raw/Rainwater Harvesting and Groundwater Recharge Household Survey.csv")
-
-# (Optional) Read and clean the codebook if needed (commented out for now)
-# codebook <- readxl::read_excel("data-raw/codebook.xlsx") %>%
-#   clean_names()
 
 # Tidy data --------------------------------------------------------------------
 
@@ -62,13 +57,13 @@ data_in[] <- lapply(data_in, function(x) {
 # Re-check the data for non-UTF-8 characters after the conversion
 check_utf8(data_in)
 
-rainwaterharvesting <- data_in
+rainwaterhsurvey <- data_in
 
 # Export Data ------------------------------------------------------------------
-usethis::use_data(rainwaterharvesting, overwrite = TRUE)
+usethis::use_data(rainwaterhsurvey, overwrite = TRUE)
 fs::dir_create(here::here("inst", "extdata"))
-readr::write_csv(rainwaterharvesting,
-                 here::here("inst", "extdata", paste0("rainwaterharvesting", ".csv")))
-openxlsx::write.xlsx(rainwaterharvesting,
-                     here::here("inst", "extdata", paste0("rainwaterharvesting",
+readr::write_csv(rainwaterhsurvey,
+                 here::here("inst", "extdata", paste0("rainwaterhsurvey", ".csv")))
+openxlsx::write.xlsx(rainwaterhsurvey,
+                     here::here("inst", "extdata", paste0("rainwaterhsurvey",
                                                           ".xlsx")))

@@ -1,0 +1,19 @@
+directory,file_name,variable_name,variable_type,description
+data/,rainwaterharvesting.rda,district,character,Name of district where the household is located
+data/,rainwaterharvesting.rda,community,character,Name of the local community or village of the respondent
+data/,rainwaterharvesting.rda,primary_water_source,character,Main source of water used by the household for drinking and domestic purposes
+data/,rainwaterharvesting.rda,water_scarcity,character,Whether the household experiences water scarcity
+data/,rainwaterharvesting.rda,scarcity_months,character,Months of the year when the household experiences water scarcity
+data/,rainwaterharvesting.rda,perceived_water_source,character,Respondents perception of where their household water originates from
+data/,rainwaterharvesting.rda,belief_underground_rivers,logical,Whether the respondent believes that underground rivers supply boreholes and wells
+data/,rainwaterharvesting.rda,belief_groundwater_exhausted,logical,Whether the respondent believes that drying of boreholes indicates complete depletion of groundwater
+data/,rainwaterharvesting.rda,belief_groundwater_replenished,logical,Whether the respondent believes that groundwater can be replenished or naturally refilled
+data/,rainwaterharvesting.rda,belief_recharge_detectable,character,Respondents view on whether it is possible to detect or know if groundwater is being replenished
+data/,rainwaterharvesting.rda,rwh_practice,character,Whether the household practices rainwater harvesting
+data/,rainwaterharvesting.rda,rwh_barrier,character,Main reason why the household does not practice rainwater harvesting
+data/,rainwaterharvesting.rda,rwh_use,character,Primary uses of harvested rainwater within the household
+data/,rainwaterharvesting.rda,belief_rwh_recharge,character,Respondents belief that rainwater harvesting contributes to groundwater recharge
+data/,rainwaterharvesting.rda,belief_rwh_expensive,character,Respondents belief that rainwater harvesting requires expensive technology or is unaffordable
+data/,rainwaterharvesting.rda,belief_rwh_unreliable,character,Respondents belief that rainwater harvesting is ineffective due to rainfall variability or unreliability
+data/,rainwaterharvesting.rda,recharge_solutions,character,Respondents suggestions on methods or practices that can help replenish groundwater
+data/,rainwaterharvesting.rda,rwh_support_needed,character,"Types of support, information, or interventions that would encourage adoption of rainwater harvesting or groundwater recharge practices"
