@@ -1,14 +1,25 @@
 Package: rainwaterhsurvey
 Title: Rainwater Harvesting and Groundwater Recharge Household Survey (BASEflow, 2025)
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Authors@R: c(
+    person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3197-6244")),
+    person("beyard", "linje", role = "ctb"),
+    person("Emmanuel", "Nkhonjera", role = "ctb"),
+    person("Maxwell", "Ngumuya", role = "ctb"),
+    person("Chipangano", "Petro", role = "ctb"),
+    person("Funny", "kapyola", role = "ctb")
+  )
 Description: This dataset contains household-level survey data collected in 2025 under the BASEflow monitoring and data systems using the mWater digital data collection platform. The survey was conducted across selected communities to assess household water access conditions, perceptions of groundwater systems, and adoption of rainwater harvesting (RWH) practices.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 LazyData: true
+Language: en-GB
+Config/Needs/website: rmarkdown
+Date: 2026-04-16
+URL: https://github.com/openwashdata/rainwaterhsurvey
+BugReports: https://github.com/openwashdata/rainwaterhsurvey/issues
