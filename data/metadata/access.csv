@@ -1,0 +1,3 @@
+fileName,name,contentUrl,encodingFormat
+rainwaterharvesting.csv,rainwaterharvesting,https://raw.githubusercontent.com/openwashdata/rainwaterharvesting/main/inst/extdata/rainwaterharvesting.csv,csv
+rainwaterharvesting.xlsx,rainwaterharvesting,https://raw.githubusercontent.com/openwashdata/rainwaterharvesting/main/inst/extdata/rainwaterharvesting.xlsx,ooxml
