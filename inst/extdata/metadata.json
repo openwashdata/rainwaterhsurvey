@@ -13,8 +13,8 @@
   "keywords": null,
   "distribution": {
     "@type": "DataDownload",
-    "url": "https://raw.githubusercontent.com/openwashdata/rainwaterharvesting/main/inst/extdata/rainwaterharvesting.csv",
-    "contentUrl": "https://raw.githubusercontent.com/openwashdata/rainwaterharvesting/main/inst/extdata/rainwaterharvesting.csv",
+    "url": "https://raw.githubusercontent.com/openwashdata/rainwaterhsurvey/main/inst/extdata/rainwaterhsurvey.csv",
+    "contentUrl": "https://raw.githubusercontent.com/openwashdata/rainwaterhsurvey/main/inst/extdata/rainwaterhsurvey.csv",
     "encodingFormat": "text/csv"
   },
   "encodingFormat": "CSV",

@@ -3,7 +3,7 @@
 \docType{data}
 \name{rainwaterhsurvey}
 \alias{rainwaterhsurvey}
-\title{Rainwater Harvesting and Groundwater Recharge Household Survey (BASEflow, 2025)}
+\title{Rainwater Harvesting and Groundwater Recharge Survey, Malawi 2025}
 \format{
 A tibble with 479 rows and 18 variables
 \describe{
