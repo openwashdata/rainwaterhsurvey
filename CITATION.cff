@@ -9,7 +9,7 @@ type: dataset
 license: CC-BY-4.0
 title: 'rainwaterhsurvey: Rainwater Harvesting and Groundwater Recharge Household
   Survey (BASEflow, 2025)'
-version: 0.0.0.9000
+version: 1.0.1
 doi: 10.5281/zenodo.19610496
 abstract: This dataset contains household-level survey data collected in 2025 under
   the BASEflow monitoring and data systems using the mWater digital data collection

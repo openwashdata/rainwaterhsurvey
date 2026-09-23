@@ -11,4 +11,4 @@ bibentry(bibtype = "Misc",
          url = "https://github.com/openwashdata/rainwaterhsurvey",
          abstract = "This dataset contains household-level survey data collected in 2025 under the BASEflow monitoring and data systems using the mWater digital data collection platform. The survey was conducted across selected communities to assess household water access conditions, perceptions of groundwater systems, and adoption of rainwater harvesting (RWH) practices.",
          keywords = "open data,washdata,rainwater harvesting,groundwater recharge,household survey,water scarcity,Malawi,baseflow,groundwater,opendatawash,rainwater-harvesting",
-         version = "0.0.0.9000")
+         version = "1.0.1")
