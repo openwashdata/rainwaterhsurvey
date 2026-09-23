@@ -30,6 +30,8 @@ knitr::opts_chunk$set(
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [![DOI](https://zenodo.org/badge/1212554622.svg)](https://doi.org/10.5281/zenodo.19610496)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19610496.svg)](https://zenodo.org/doi/10.5281/zenodo.19610496)
+[![R-CMD-check](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This dataset contains household-level survey data collected in 2025
@@ -211,7 +213,7 @@ ggplot(summary_df, aes(x = indicator, y = percentage)) +
 ## License
 
 Data are available as
-[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/rainwaterhsurvey/blob/main/LICENSE.md).
 
 ## Citation
 

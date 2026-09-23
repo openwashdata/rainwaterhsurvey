@@ -9,6 +9,8 @@
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [![DOI](https://zenodo.org/badge/1212554622.svg)](https://doi.org/10.5281/zenodo.19610496)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19610496.svg)](https://zenodo.org/doi/10.5281/zenodo.19610496)
+[![R-CMD-check](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This dataset contains household-level survey data collected in 2025
@@ -87,7 +89,7 @@ file from the table below.
 
 | dataset | CSV | XLSX |
 |:---|:---|:---|
-| rainwaterharvesting | [Download CSV](https://github.com/openwashdata/rainwaterhsurvey/raw/main/inst/extdata/rainwaterharvesting.csv) | [Download XLSX](https://github.com/openwashdata/rainwaterhsurvey/raw/main/inst/extdata/rainwaterharvesting.xlsx) |
+| rainwaterhsurvey | [Download CSV](https://github.com/openwashdata/rainwaterhsurvey/raw/main/inst/extdata/rainwaterhsurvey.csv) | [Download XLSX](https://github.com/openwashdata/rainwaterhsurvey/raw/main/inst/extdata/rainwaterhsurvey.xlsx) |
 
 ## Data
 
@@ -113,7 +115,7 @@ rainwaterhsurvey |>
   gt::as_raw_html()
 ```
 
-<div id="rwpferiqez" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vawxqvtrdr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -330,7 +332,7 @@ ggplot(summary_df, aes(x = indicator, y = percentage)) +
 ## License
 
 Data are available as
-[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/rainwaterhsurvey/blob/main/LICENSE.md).
 
 ## Citation
 
@@ -340,18 +342,22 @@ Please cite this package using:
 citation("rainwaterhsurvey")
 #> To cite package 'rainwaterhsurvey' in publications use:
 #> 
-#>   Mhango E (2026). _rainwaterhsurvey: Rainwater Harvesting and
-#>   Groundwater Recharge Household Survey (BASEflow, 2025)_. R package
-#>   version 0.0.0.9000,
+#>   Mhango E (2026). "rainwaterhsurvey: Rainwater Harvesting and
+#>   Groundwater Recharge Survey, Malawi 2025."
+#>   doi:10.5281/zenodo.19610496
+#>   <https://doi.org/10.5281/zenodo.19610496>.
 #>   <https://github.com/openwashdata/rainwaterhsurvey>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
-#>   @Manual{,
-#>     title = {rainwaterhsurvey: Rainwater Harvesting and Groundwater Recharge Household Survey (BASEflow, 2025)},
+#>   @Misc{mhango:2026,
+#>     title = {rainwaterhsurvey: Rainwater Harvesting and Groundwater Recharge Survey, Malawi 2025},
 #>     author = {Emmanuel Mhango},
 #>     year = {2026},
-#>     note = {R package version 0.0.0.9000},
+#>     doi = {10.5281/zenodo.19610496},
 #>     url = {https://github.com/openwashdata/rainwaterhsurvey},
+#>     abstract = {This dataset contains household-level survey data collected in 2025 under the BASEflow monitoring and data systems using the mWater digital data collection platform. The survey was conducted across selected communities to assess household water access conditions, perceptions of groundwater systems, and adoption of rainwater harvesting (RWH) practices.},
+#>     keywords = {open data,washdata,rainwater harvesting,groundwater recharge,household survey,water scarcity,Malawi,baseflow,groundwater,opendatawash,rainwater-harvesting},
+#>     version = {1.0.1},
 #>   }
 ```

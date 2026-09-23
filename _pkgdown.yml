@@ -1,5 +1,5 @@
 
-url: https://github.com/openwashdata/rainwaterhsurvey
+url: https://openwashdata.github.io/rainwaterhsurvey/
 template:
   bootstrap: 5
   includes:
