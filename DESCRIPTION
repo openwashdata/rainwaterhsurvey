@@ -1,5 +1,5 @@
 Package: rainwaterhsurvey
-Title: Rainwater Harvesting and Groundwater Recharge Household Survey (BASEflow, 2025)
+Title: Rainwater Harvesting and Groundwater Recharge Survey, Malawi 2025
 Version: 1.0.1
 Authors@R: c(
     person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
@@ -25,3 +25,4 @@ URL: https://github.com/openwashdata/rainwaterhsurvey
 BugReports: https://github.com/openwashdata/rainwaterhsurvey/issues
 X-schema.org-keywords: open data, washdata, rainwater harvesting, groundwater recharge, household survey, water scarcity, Malawi
 X-schema.org-spatialCoverage: Balaka, Chikwawa and Machinga, Malawi
+X-schema.org-temporalCoverage: 2025-01-01/2025-12-31

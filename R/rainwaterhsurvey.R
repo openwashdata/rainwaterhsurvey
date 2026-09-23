@@ -1,4 +1,4 @@
-#' Rainwater Harvesting and Groundwater Recharge Household Survey (BASEflow, 2025)
+#' Rainwater Harvesting and Groundwater Recharge Survey, Malawi 2025
 #'
 #' This dataset contains household-level survey data collected in 2025 under the BASEflow monitoring and data systems using the mWater digital data collection platform. The survey was conducted across selected communities to assess household water access conditions, perceptions of groundwater systems, and adoption of rainwater harvesting (RWH) practices.
 #'

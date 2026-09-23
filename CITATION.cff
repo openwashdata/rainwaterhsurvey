@@ -7,8 +7,8 @@ cff-version: 1.2.0
 message: 'To cite package "rainwaterhsurvey" in publications use:'
 type: dataset
 license: CC-BY-4.0
-title: 'rainwaterhsurvey: Rainwater Harvesting and Groundwater Recharge Household
-  Survey (BASEflow, 2025)'
+title: 'rainwaterhsurvey: Rainwater Harvesting and Groundwater Recharge Survey, Malawi
+  2025'
 version: 1.0.1
 doi: 10.5281/zenodo.19610496
 abstract: This dataset contains household-level survey data collected in 2025 under
