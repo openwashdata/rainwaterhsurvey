@@ -20,6 +20,8 @@ Depends:
 LazyData: true
 Language: en-GB
 Config/Needs/website: rmarkdown
-Date: 2026-04-16
+Date: 2026-09-23
 URL: https://github.com/openwashdata/rainwaterhsurvey
 BugReports: https://github.com/openwashdata/rainwaterhsurvey/issues
+X-schema.org-keywords: open data, washdata, rainwater harvesting, groundwater recharge, household survey, water scarcity, Malawi
+X-schema.org-spatialCoverage: Balaka, Chikwawa and Machinga, Malawi
