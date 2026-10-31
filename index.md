@@ -4,6 +4,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19610496.svg)](https://zenodo.org/doi/10.5281/zenodo.19610496)
 [![R-CMD-check](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml)
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This dataset contains household-level survey data collected in 2025
 under the BASEflow monitoring and data systems using the mWater digital
 data collection platform. The survey was conducted across selected
