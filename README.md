@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Rainwater Harvesting and Groundwater Recharge Household Survey - 2025
+# Rainwater Harvesting and Groundwater Recharge Household Survey - 2025 <a href="https://openwashdata.org"><img src="man/figures/logo.png" align="right" width="120" alt="openwashdata" /></a>
 
 <!-- badges: start -->
 
@@ -12,8 +12,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19610496.svg)](https://zenodo.org/doi/10.5281/zenodo.19610496)
 [![R-CMD-check](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/rainwaterhsurvey/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
-
-A data package published by [openwashdata](https://openwashdata.org).
 
 This dataset contains household-level survey data collected in 2025
 under the BASEflow monitoring and data systems using the mWater digital
@@ -337,6 +335,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/rainwaterhsurvey/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite this package using:
 
